@@ -27,9 +27,9 @@ export default function MainPage() {
     <div className="min-h-screen">
       <section className="py-10 md:py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-12xl text-center">
               <p className="eyebrow">{siteContent.homeIntro.eyebrow}</p>
-              <h1 className="mx-auto mt-4 max-w-4xl text-4xl font-serif font-semibold leading-tight text-balance text-foreground md:text-5xl lg:text-6xl">
+              <h1 className="mx-auto mt-4 max-w-4xl text-4xl font-serif font-semibold leading-tight text-balance text-foreground md:text-5xl lg:text-4xl">
                 {siteContent.homeIntro.title}
               </h1>
               <div className="mx-auto mt-6 max-w-4xl space-y-4 text-lg leading-relaxed text-muted-foreground md:text-xl">
