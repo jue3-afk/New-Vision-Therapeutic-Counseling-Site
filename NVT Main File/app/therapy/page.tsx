@@ -1,6 +1,5 @@
 import { User, Video } from "lucide-react"
 import { BookButton } from "@/components/book-button"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 
 const services = [
   {
@@ -56,23 +55,16 @@ export default function ServicesPage() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-2">
             {services.map((service) => (
-              <Card
-                key={service.title}
-                className="bg-card border-border hover:shadow-lg transition-shadow flex flex-col"
-              >
-                <CardHeader>
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <service.icon className="w-6 h-6 text-primary" />
-                  </div>
-                  <CardTitle className="text-xl text-foreground">{service.title}</CardTitle>
-                  <CardDescription className="text-muted-foreground leading-relaxed">
-                    {service.description}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="mt-auto pt-4">
+              <div key={service.title} className="border-l-4 border-primary/30 pl-5">
+                <service.icon className="mb-4 w-6 h-6 text-primary" />
+                <h2 className="text-xl font-semibold text-foreground">{service.title}</h2>
+                <p className="mt-3 text-muted-foreground leading-relaxed">
+                  {service.description}
+                </p>
+                <div className="mt-6">
                   <BookButton variant="outline" />
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             ))}
           </div>
         </div>
@@ -103,12 +95,10 @@ export default function ServicesPage() {
           </div>
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <Card key={index} className="bg-card border-border">
-                <CardContent className="pt-6">
-                  <h3 className="text-lg font-semibold text-foreground mb-2">{faq.question}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{faq.answer}</p>
-                </CardContent>
-              </Card>
+              <div key={index} className="border-l-4 border-primary/30 pl-5">
+                <h3 className="text-lg font-semibold text-foreground mb-2">{faq.question}</h3>
+                <p className="text-muted-foreground leading-relaxed">{faq.answer}</p>
+              </div>
             ))}
           </div>
         </div>

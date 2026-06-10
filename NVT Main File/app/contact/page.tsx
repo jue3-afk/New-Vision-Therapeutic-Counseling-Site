@@ -1,5 +1,4 @@
 import { Mail, Phone } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
 import { BookButton } from "@/components/book-button"
 import { siteContent } from "@/lib/site-content"
 
@@ -22,29 +21,21 @@ export default function ContactPage() {
       <section className="py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12">
-            <Card className="bg-card border-border">
-              <CardContent className="pt-8 pb-8 text-center">
-                <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Phone className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">Phone</h3>
-                <a href={siteContent.phoneHref} className="text-muted-foreground transition-colors hover:text-primary">
-                  {siteContent.phoneDisplay}
-                </a>
-              </CardContent>
-            </Card>
+            <div className="border-l-4 border-primary/30 pl-5">
+              <Phone className="mb-4 w-6 h-6 text-primary" />
+              <h3 className="text-lg font-semibold text-foreground mb-2">Phone</h3>
+              <a href={siteContent.phoneHref} className="text-muted-foreground transition-colors hover:text-primary">
+                {siteContent.phoneDisplay}
+              </a>
+            </div>
 
-            <Card className="bg-card border-border">
-              <CardContent className="pt-8 pb-8 text-center">
-                <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Mail className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">Email</h3>
-                <a href={siteContent.contactPath} className="text-muted-foreground transition-colors hover:text-primary">
-                  dejiofor@hotmail.com
-                </a>
-              </CardContent>
-            </Card>
+            <div className="border-l-4 border-primary/30 pl-5">
+              <Mail className="mb-4 w-6 h-6 text-primary" />
+              <h3 className="text-lg font-semibold text-foreground mb-2">Email</h3>
+              <a href={siteContent.contactPath} className="text-muted-foreground transition-colors hover:text-primary">
+                dejiofor@hotmail.com
+              </a>
+            </div>
 
   
           </div>

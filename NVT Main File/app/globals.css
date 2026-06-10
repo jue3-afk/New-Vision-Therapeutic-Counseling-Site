@@ -147,35 +147,11 @@
 }
 
 @layer utilities {
-  .section-wrap {
-    @apply relative overflow-hidden rounded-[2rem] border border-border/70 bg-card/80 shadow-[0_18px_60px_rgba(29,57,103,0.08)] backdrop-blur-sm;
-  }
-
-  .section-wash {
-    background-image:
-      linear-gradient(135deg, color-mix(in oklab, var(--secondary) 78%, white), color-mix(in oklab, var(--background) 75%, white)),
-      radial-gradient(circle at top right, color-mix(in oklab, var(--accent) 12%, transparent), transparent 35%);
-  }
-
-  .hero-wash {
-    background-image:
-      linear-gradient(145deg, color-mix(in oklab, var(--primary) 12%, white), color-mix(in oklab, var(--secondary) 70%, white)),
-      radial-gradient(circle at top right, color-mix(in oklab, var(--accent) 24%, transparent), transparent 34%);
-  }
-
-  .soft-card {
-    @apply border border-border/70 bg-card/95 shadow-[0_20px_45px_rgba(29,57,103,0.08)] backdrop-blur-sm;
-  }
-
   .eyebrow {
     @apply text-[0.75rem] font-semibold uppercase tracking-[0.24em] text-primary/80;
   }
 
   .section-title {
     @apply text-3xl font-serif font-semibold text-foreground md:text-4xl;
-  }
-
-  .cta-band {
-    background-image: linear-gradient(135deg, color-mix(in oklab, var(--primary) 94%, black), color-mix(in oklab, var(--primary) 82%, white));
   }
 }

@@ -1,0 +1,1391 @@
+[browser] Image with src "http://127.0.0.1:3000/NEWV_DEB_PIC.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Image with src "http://127.0.0.1:3000/NEWV_DEB_PIC.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Image with src "http://127.0.0.1:3000/NEWV_DEB_PIC.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] ./lib/site-content.ts:19:7
+Unterminated string constant
+  17 | ...
+  18 | ...
+> 19 | ...onal Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology a...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ...and well-rounded perspective to therapy. I use an eclectic approach, drawing from a var...
+  21 | ...roughout your therapeutic journey. I invite you to contact me for a free phone consulta...
+  22 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:19:7
+Unterminated string constant
+  17 | ...
+  18 | ...
+> 19 | ...onal Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology a...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ...and well-rounded perspective to therapy. I use an eclectic approach, drawing from a var...
+  21 | ...roughout your therapeutic journey. I invite you to contact me for a free phone consulta...
+  22 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:19:7
+Unterminated string constant
+  17 | ...
+  18 | ...
+> 19 | ...onal Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology a...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ...and well-rounded perspective to therapy. I use an eclectic approach, drawing from a var...
+  21 | ...roughout your therapeutic journey. I invite you to contact me for a free phone consulta...
+  22 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:19:7
+Unterminated string constant
+  17 | ...
+  18 | ...
+> 19 | ...onal Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology a...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ...and well-rounded perspective to therapy. I use an eclectic approach, drawing from a var...
+  21 | ...roughout your therapeutic journey. I invite you to contact me for a free phone consulta...
+  22 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:19:7
+Unterminated string constant
+  17 | ...
+  18 | ...
+> 19 | ...onal Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology a...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ...and well-rounded perspective to therapy. I use an eclectic approach, drawing from a var...
+  21 | ...roughout your therapeutic journey. I invite you to contact me for a free phone consulta...
+  22 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:19:7
+Unterminated string constant
+  17 | ...
+  18 | ...
+> 19 | ...onal Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology a...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ...and well-rounded perspective to therapy. I use an eclectic approach, drawing from a var...
+  21 | ...roughout your therapeutic journey. I invite you to contact me for a free phone consulta...
+  22 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:19:7
+Unterminated string constant
+  17 | ...
+  18 | ...
+> 19 | ...onal Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology a...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ...and well-rounded perspective to therapy. I use an eclectic approach, drawing from a var...
+  21 | ...roughout your therapeutic journey. I invite you to contact me for a free phone consulta...
+  22 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:20:1
+Unterminated string constant
+  18 | ...
+  19 | ... Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology and a...
+> 20 | ... well-rounded perspective to therapy. I use an eclectic approach, drawing from a variet...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | ...hout your therapeutic journey. I invite you to contact me for a free phone consultation...
+  22 | ...
+  23 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:20:1
+Unterminated string constant
+  18 | ...
+  19 | ... Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology and a...
+> 20 | ... well-rounded perspective to therapy. I use an eclectic approach, drawing from a variet...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | ...hout your therapeutic journey. I invite you to contact me for a free phone consultation...
+  22 | ...
+  23 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:19:7
+Unterminated string constant
+  17 | ...
+  18 | ...
+> 19 | ...onal Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology a...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ... and well-rounded perspective to therapy. I use an eclectic approach, drawing from a va...
+  21 | ...roughout your therapeutic journey. I invite you to contact me for a free phone consulta...
+  22 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:20:1
+Expected ',', got 'string literal'
+  18 | ...
+  19 | ...Board for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology and a ...
+> 20 | ...well-rounded perspective to therapy. I use an eclectic approach, drawing from a variety...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | ...out your therapeutic journey. I invite you to contact me for a free phone consultation ...
+  22 | ...
+  23 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] Image with src "http://127.0.0.1:3000/NEWV_DEB_PIC.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] ./app/about/page.tsx:31:16
+Expected ',', got 'ident'
+  29 |     body
+  30 |
+> 31 |       <section className="py-10">
+     |                ^^^^^^^^^
+  32 |         <div className="max-w-6xl mx-auto px-4">
+  33 |           <div className="section-wrap section-wash px-6 py-12 md:px-10">
+  34 |             <div className="mb-12 text-center">
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:31:5
+Expression expected
+  29 |     body[
+  30 |       
+> 31 |     ]
+     |     ^
+  32 |
+  33 |       <section className="py-10">
+  34 |         <div className="max-w-6xl mx-auto px-4">
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:30:12
+Expected ']', got 'ident'
+  28 |   return (
+  29 |     body[
+> 30 |       With experience in private practice, assisted living, education, hospitals, and corr...
+     |            ^^^^^^^^^^
+  31 |     ]
+  32 |
+  33 |       <section className="py-10">
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:30:7
+Unterminated string constant
+  28 | ...
+  29 | ...
+> 30 | ... well-rounded perspective to therapy. I use an eclectic approach, drawing from a variet...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | ...
+  32 | ...
+  33 | ...
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:33:16
+Expected ',', got 'ident'
+  31 |     ]
+  32 |
+> 33 |       <section className="py-10">
+     |                ^^^^^^^^^
+  34 |         <div className="max-w-6xl mx-auto px-4">
+  35 |           <div className="section-wrap section-wash px-6 py-12 md:px-10">
+  36 |             <div className="mb-12 text-center">
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:33:7
+Expression expected
+  31 |     ]
+  32 |
+> 33 |       <section className="py-10">
+     |       ^
+  34 |         <div className="max-w-6xl mx-auto px-4">
+  35 |           <div className="section-wrap section-wash px-6 py-12 md:px-10">
+  36 |             <div className="mb-12 text-center">
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:33:7
+Expression expected
+  31 |     ]
+  32 |
+> 33 |       <section className="py-10">
+     |       ^
+  34 |         <div className="max-w-6xl mx-auto px-4">
+  35 |           <div className="section-wrap section-wash px-6 py-12 md:px-10">
+  36 |             <div className="mb-12 text-center">
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:10:5
+Expected ',', got 'string literal'
+   8 | ...
+   9 | ...
+> 10 | ...well-rounded perspective to therapy. I use an eclectic approach, drawing from a variety...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | ...
+  12 | ...
+  13 | ...
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:10:5
+Expected ',', got 'string literal'
+   8 | ...
+   9 | ...for Certified Counselors (NBCC). I earned a Bachelor of Arts in Psychology and a Master...
+> 10 | ...well-rounded perspective to therapy. I use an eclectic approach, drawing from a variety...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | ...
+  12 | ...
+  13 | ...
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:17:15
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  15 |     eyebrow: "Welcome!",
+  16 |     title: "Asking for help is a sign of strength.",
+> 17 |     ness, and a healthier way forward.",
+     |               ^
+  18 |     body: [
+  19 |       "I am a Licensed Professional Counselor (LPC) in New Jersey and a National Certified...
+  20 |     ],
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:18:7
+Unterminated string constant
+  16 |     title: "Asking for help is a sign of strength.",
+  17 |     body: [
+> 18 |       "
+     |       ^
+  19 |     ],
+  20 |   },
+  21 | } as const
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:18:7
+Unterminated string constant
+  16 |     title: "Asking for help is a sign of strength.",
+  17 |     body: [
+> 18 |       "
+     |       ^
+  19 |     ],
+  20 |   },
+  21 | } as const
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:18:7
+Unterminated string constant
+  16 | ...
+  17 | ...
+> 18 | ... many challenges, reaching out for support takes courage. Recognizing that you do not h...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | ...
+  20 | ...
+  21 | ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:21:7
+Expected ',', got 'string literal'
+  19 |       "The way we experience life's challenges is often influenced by how we view ourselve...
+  20 |       "You do not have to navigate this journey alone. Together, we can work toward greate...
+> 21 |       ""
+     |       ^^
+  22 |     ],
+  23 |   },
+  24 | } as const
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:21:7
+Expected ',', got 'string literal'
+  19 |       "The way we experience life's challenges is often influenced by how we view ourselve...
+  20 |       "You do not have to navigate this journey alone. Together, we can work toward greate...
+> 21 |       "I look forward to helping you create a new vision for your future."
+     |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 |     ],
+  23 |   },
+  24 | } as const
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:21:7
+Expected ',', got 'string literal'
+  19 |       "The way we experience life's challenges is often influenced by how we view ourselve...
+  20 |       "You do not have to navigate this journey alone. Together, we can work toward greate...
+> 21 |       "I look forward to helping you create a new vision for your future.",
+     |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 |     ],
+  23 |   },
+  24 | } as const
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./lib/site-content.ts:21:7
+Expected ',', got 'string literal'
+  19 |       "The way we experience life's challenges is often influenced by how we view ourselve...
+  20 |       "You do not have to navigate this journey alone. Together, we can work toward greate...
+> 21 |       "I look forward to helping you create a new vision for your future."
+     |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 |     ],
+  23 |   },
+  24 | } as const
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/site-content.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/site-content.ts
+    ./app/page.tsx
+
+  #3 [Client Component Browser]:
+    ./lib/site-content.ts [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./lib/site-content.ts [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:150:1
+Unterminated block comment
+  148 |   )
+  149 | }
+> 150 |
+      | ^
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:150:1
+Unterminated block comment
+  148 |   )
+  149 | }
+> 150 |
+      | ^
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:52:14
+Unterminated regexp literal
+  50 |                 </Link>
+  51 |               </div>
+> 52 |             </div>
+     |              ^^^^^
+  53 |
+  54 |
+  55 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:52:14
+Unterminated regexp literal
+  50 |                 </Link>
+  51 |               </div>
+> 52 |             </div>
+     |              ^^^^^
+  53 |
+  54 |
+  55 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:52:14
+Unterminated regexp literal
+  50 |                 </Link>
+  51 |               </div>
+> 52 |             </div>
+     |              ^^^^^
+  53 |
+  54 |
+  55 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:52:14
+Unterminated regexp literal
+  50 |                 </Link>
+  51 |               </div>
+> 52 |             </div>
+     |              ^^^^^
+  53 |
+  54 |
+  55 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:69:12
+Unterminated regexp literal
+  67 |               </div>
+  68 |             </div>
+> 69 |           </div>
+     |            ^^^^^
+  70 |         </div>
+  71 |       </section>
+  72 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:68:20
+Expected '</', got '}'
+  66 |                 />
+  67 |               </div>
+> 68 |             </div>/}
+     |                    ^
+  69 |           </div>
+  70 |         </div>
+  71 |       </section>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:68:20
+Unterminated regexp literal
+  66 |                 />
+  67 |               </div>
+> 68 |             </div>*/}
+     |                    ^^
+  69 |           </div>
+  70 |         </div>
+  71 |       </section>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/page.tsx:58:14
+Unterminated regexp literal
+  56 |             {/*Therapist image*/}
+  57 |             
+> 58 |             {/<div className="flex-1">
+     |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  59 |               <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidd...
+  60 |                 <Image
+  61 |                   src="/NEWV_DEB_PIC.jpg"
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:28:10
+Expected '</', got ':'
+  26 | const values = [
+  27 |   {
+> 28 |     title: "Evidence-Based",
+     |          ^
+  29 |     description:
+  30 |       "Our methods are grounded in proven therapeutic approaches including CBT, mindfulnes...
+  31 |   },
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:29:10
+Expected '</', got ':'
+  27 | const values = [
+  28 |   {
+> 29 |     title: "Evidence-Based",
+     |          ^
+  30 |     description:
+  31 |       "Our methods are grounded in proven therapeutic approaches including CBT, mindfulnes...
+  32 |   },
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:26:12
+Unterminated regexp literal
+  24 |               </div>
+  25 |             </div>
+> 26 |           </div>
+     |            ^^^^^
+  27 |         </div>
+  28 |       </section>
+  29 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+⨯ ReferenceError: Image is not defined
+    at module evaluation (app\about\page.tsx:17:18)
+    at module evaluation (C:\Users\ejiof\OneDrive\Desktop\Secure Coding Midterm Project\New-Vision-Therapeutic-Counseling-Site\NVT Main File\.next\dev\server\chunks\ssr\[root-of-the-server]__0efk8x~._.js:443:47)
+  15 | <div className="flex-1">
+  16 |               <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidd...
+> 17 |                 <Image
+     |                  ^
+  18 |                   src="/NEWV_DEB_PIC.jpg"
+  19 |                   alt={`${siteContent.therapistName} portrait`}
+  20 |                   fill
+⨯ ReferenceError: Image is not defined
+    at module evaluation (app\about\page.tsx:17:18)
+    at module evaluation (C:\Users\ejiof\OneDrive\Desktop\Secure Coding Midterm Project\New-Vision-Therapeutic-Counseling-Site\NVT Main File\.next\dev\server\chunks\ssr\[root-of-the-server]__0efk8x~._.js:443:47)
+  15 | <div className="flex-1">
+  16 |               <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidd...
+> 17 |                 <Image
+     |                  ^
+  18 |                   src="/NEWV_DEB_PIC.jpg"
+  19 |                   alt={`${siteContent.therapistName} portrait`}
+  20 |                   fill {
+  page: '/about'
+}
+[browser] ./app/about/page.tsx:26:12
+Unterminated regexp literal
+  24 |               </div>
+  25 |             </div>
+> 26 |           </div>
+     |            ^^^^^
+  27 |         </div>
+  28 |       </section>  
+  29 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/about/page.tsx:26:12
+Unterminated regexp literal
+  24 |               </div>
+  25 |             </div>
+> 26 |           </div>
+     |            ^^^^^
+  27 |         </div>
+  28 |       </section>  
+  29 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+⨯ ./app/about/page.tsx:26:12
+Unterminated regexp literal
+  [90m24 |[0m               </div>
+  [90m25 |[0m             </div>
+[31m[1m>[0m [90m26 |[0m           </div>
+  [90m   |[0m            [31m[1m^^^^^[0m
+  [90m27 |[0m         </div>
+  [90m28 |[0m       </section>  
+  [90m29 |[0m
+
+Parsing ecmascript source code failed
+
+
+[browser] Uncaught Error: ./app/about/page.tsx:26:12
+Unterminated regexp literal
+  24 |               </div>
+  25 |             </div>
+> 26 |           </div>
+     |            ^^^^^
+  27 |         </div>
+  28 |       </section>  
+  29 |
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/about/page.tsx:26:12)
+    at <unknown> (Error: (./app/about/page.tsx:26:12)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/Mainpage.tsx:58:104
+Expected '</', got 'ident'
+  56 | ...
+  57 | .../40 pl-6">
+> 58 | ...bold text-foreground">Adults<Therapy for /h2>
+     |                                              ^^
+  59 | ...eground">
+  60 | ... relationship challenges, or life transitions, I provide a
+  61 | ... and develop coping strategies.
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/Mainpage.tsx
+    ./app/page.tsx 
+    at handleErrors (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://C:/Users/ejiof/OneDrive/Desktop/Secure Coding Midterm Project/New-Vision-Therapeutic-Counseling-Site/NVT Main File/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)

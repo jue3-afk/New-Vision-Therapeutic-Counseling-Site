@@ -12,12 +12,13 @@ export const siteContent = {
   ],
   contactCta: "I'd love to hear from you. Contact me to schedule a free 15 minute consultation.",
   homeIntro: {
-    eyebrow: "Therapy for anxiety, trauma, life transitions, and emotional healing in New Jersey",
+    eyebrow: "Welcome!",
     title: "Asking for help is a sign of strength.",
-    lead: "Compassionate support for adults and teens seeking clarity, steadiness, and a healthier way forward.",
     body: [
-      "If you are looking for guidance with anxiety, relationships, depression, or trauma and PTSD, it takes courage to ask for help. Admitting you can't do everything on your own is the first step toward achieving wellness in a fast-paced, demanding world.",
-      "The good news is that asking for help gets easier with practice. The way we cope in the world is greatly influenced by how we see the world. Obtaining support and a fresh perspective is often the first profound step toward developing the resilience needed to grow stronger.",
+      "If you are struggling with relationship concerns, anxiety, depression, trauma, or life's many challenges, reaching out for support takes courage. Recognizing that you do not have to face everything alone is often the first step toward healing and personal growth.",
+      "The way we experience life's challenges is often influenced by how we view ourselves, others, and the world around us. Gaining support and a fresh perspective can be a powerful step toward building resilience, overcoming obstacles, and creating meaningful change.",
+      "You do not have to navigate this journey alone. Together, we can work toward greater emotional well-being, healthier relationships, and a more fulfilling life.",
+      "I look forward to helping you create a new vision for your future."
     ],
   },
 } as const
