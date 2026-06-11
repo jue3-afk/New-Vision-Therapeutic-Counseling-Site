@@ -1,20 +1,27 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { BookButton } from "@/components/book-button"
+import { Button } from "@/components/ui/button"
 import { siteContent } from "@/lib/site-content"
 
 const services = [
   {
     title: "Anxiety",
     description: "Learn to manage worry and find calm in everyday life.",
+    image: "/anxiety.jpg",
+    imageAlt: "Anxiety support",
   },
   {
     title: "Depression",
     description: "Rediscover hope and reconnect with what matters most.",
+    image: "/depression2.jpg",
+    imageAlt: "Depression support",
   },
   {
     title: "Life Transitions",
     description: "Navigate change with support and clarity.",
+    image: "/lifetrans.png",
+    imageAlt: "Life transitions support",
   },
 ]
 
@@ -25,33 +32,46 @@ const SIMPLE_PRACTICE_URL =
 export default function MainPage() {
   return (
     <div className="min-h-screen">
-      <section className="py-10 md:py-14">
+      {/*Background image hero section*/}
+      <section
+        className="py-10 md:py-14"
+        style={{
+          backgroundImage: "url('/calmingchair.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+
+      >
+        {/*Background image hero section content*/}
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="mx-auto max-w-12xl text-center">
               <p className="eyebrow">{siteContent.homeIntro.eyebrow}</p>
               <h1 className="mx-auto mt-4 max-w-4xl text-4xl font-serif font-semibold leading-tight text-balance text-foreground md:text-5xl lg:text-4xl">
                 {siteContent.homeIntro.title}
               </h1>
-              <div className="mx-auto mt-6 max-w-4xl space-y-4 text-lg leading-relaxed text-muted-foreground md:text-xl">
+              <div className="mx-auto mt-6 max-w-4xl space-y-4 text-lg leading-relaxed text-foreground md:text-xl">
                 {siteContent.homeIntro.body.map((paragraph) => (
                   <p key={paragraph}>{paragraph}</p>
                 ))}
               </div>
+                {/* End of hero section content */}
 
+                {/* CTA buttons */}
               {/* Services button */}
               <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
                 <BookButton variant="large" />
-                <Link
-                  href="/therapy"
-                  className="inline-flex items-center justify-center rounded-full border border-primary/25 px-8 py-3 text-lg text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
-                >
-                  Services
+                <Link href="/therapy">
+                  <Button size="lg" className="gap-2 px-8 py-6 text-lg">
+                    Services
+                  </Button>
                 </Link>
               </div>
           </div>
         </div>
       </section>
-
+      {/*commented out hero section for now, may add back in later*/}
+{/*      
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl border-l-4 border-primary/40 pl-6">
@@ -69,6 +89,7 @@ export default function MainPage() {
           </div>
         </div>
       </section>
+*/}
 
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -82,6 +103,13 @@ export default function MainPage() {
             {services.map((service) => (
               <div key={service.title} className="border-l-4 border-primary/30 pl-5">
                 <h3 className="mb-2 text-xl font-semibold text-foreground">{service.title}</h3>
+                <div className="mb-4 flex justify-center">
+                  <img
+                    src={service.image}
+                    alt={service.imageAlt}
+                    className="h-32 w-32 rounded-3xl object-cover"
+                  />
+                </div>
                 <p className="leading-relaxed text-muted-foreground">{service.description}</p>
               </div>
             ))}
@@ -94,17 +122,7 @@ export default function MainPage() {
         </div>
       </section>
 
-      <section className="py-10">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="section-title">My Approach</h2>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            I believe in meeting each client where they are. Using evidence-based techniques including Cognitive
-            Behavioral Therapy (CBT), mindfulness practices, and person-centered approaches, I tailor treatment to your
-            unique needs and goals. Therapy is a collaborative process, and I&apos;m here to support you every step of
-            the way.
-          </p>
-        </div>
-      </section>
+      
 
       <section className="py-10 pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">

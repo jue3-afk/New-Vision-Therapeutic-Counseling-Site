@@ -20,11 +20,12 @@ export function Navbar() {
 
   return (
     <header
-      className="full top-0 left-0 right-0 w-full z-50 border-b border-border/70 bg-cover bg-top bg-no-repeat "
+      className="top-0 left-0 right-0 w-full z-50 border-b border-border/70 bg-cover bg-top bg-no-repeat"
       style={{
         backgroundImage: "url('/flowerpic.jpg')",
         backgroundPosition: "center 30%",
-        height:"140px"
+        backgroundSize: 'cover',
+        minHeight: '140px',
       }}
     >
       <nav className="w-full px-8 py-4">

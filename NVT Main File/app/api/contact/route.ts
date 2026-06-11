@@ -2,11 +2,6 @@ import nodemailer from 'nodemailer'
 import { NextResponse } from 'next/server'
 
 
-
-
-
-
-
 {/*This is for the email inquiry message system*/}
 
 

@@ -50,6 +50,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      
       {/* Services Grid */}
       <section className="py-20 bg-background">
         <div className="max-w-5xl mx-auto px-4">
@@ -70,6 +71,18 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* My apporach Banner */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-7 text-center">
+          <h2 className="section-title">My Approach</h2>
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+            I believe in meeting each client where they are. Using evidence-based techniques including Cognitive
+            Behavioral Therapy (CBT), mindfulness practices, and person-centered approaches, I tailor treatment to your
+            unique needs and goals. Therapy is a collaborative process, and I&apos;m here to support you every step of
+            the way.
+          </p>
+        </div>
+      </section>
       {/* CTA Banner */}
       <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 text-center">
