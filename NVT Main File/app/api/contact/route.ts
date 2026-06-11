@@ -1,12 +1,21 @@
 import nodemailer from 'nodemailer'
 import { NextResponse } from 'next/server'
 
+
+
+
+
+
+
+{/*This is for the email inquiry message system*/}
+
+
 const smtpHost = process.env.SMTP_HOST
 const smtpPort = process.env.SMTP_PORT
 const smtpUser = process.env.SMTP_USER
 const smtpPass = process.env.SMTP_PASS
 const emailFrom = process.env.EMAIL_FROM || smtpUser
-const emailTo = process.env.EMAIL_TO || 'dejiofor@hotmail.com'
+const emailTo = process.env.EMAIL_TO || 'dejiofor@hotmail.com' || 'dejiofor@gmail.com'
 const smtpSecure = process.env.SMTP_SECURE === 'true'
 
 function missingConfig() {
