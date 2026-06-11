@@ -20,21 +20,21 @@ export function Navbar() {
 
   return (
     <header
-      className="sticky top-0 z-50 border-b border-border/70 bg-cover bg-top bg-no-repeat"
+      className="full top-0 left-0 right-0 w-full z-50 border-b border-border/70 bg-cover bg-top bg-no-repeat "
       style={{
         backgroundImage: "url('/flowerpic.jpg')",
-        backgroundPosition:"center 30%",
-        minHeight:"140px",
+        backgroundPosition: "center 30%",
+        height:"140px"
       }}
     >
       <nav className="w-full px-8 py-4">
         <div className="flex items-center justify-center md:block">
           <Link
             href="/"
-            className="block text-center text-xl font-semibold leading-tight text-primary md:text-3xl"
+            className="block text-center text-xl font-semibold leading-tight text-primary md:text-2xl"
             aria-label={`${siteContent.practiceName} home`}
             >
-              {/*WEBSITE NAVBAR IMAGE*/}
+             
              
 
 
@@ -95,5 +95,6 @@ export function Navbar() {
         )}
       </nav>
     </header>
+   
   )
 }

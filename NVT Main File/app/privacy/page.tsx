@@ -68,7 +68,7 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-serif font-semibold text-foreground mb-4">Contact Us</h2>
                 <p>
                   If you have questions about this privacy policy or how your information is handled, please contact us
-                  at hello@newvisiontherapy.com.
+                  at dejiofor@hotmail.com
                 </p>
               </div>
             </div>

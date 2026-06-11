@@ -448,3 +448,155 @@ Creating turbopack project {
  GET / 200 in 179ms (next.js: 9ms, application-code: 170ms)
  GET / 200 in 257ms (next.js: 183ms, application-code: 74ms)
  GET / 200 in 376ms (next.js: 7ms, application-code: 369ms)
+✓ Compiled in 532ms
+✓ Compiled in 936ms
+✓ Compiled in 273ms
+✓ Compiled in 466ms
+✓ Compiled in 297ms
+✓ Compiled in 306ms
+ GET / 200 in 1898ms (next.js: 805ms, application-code: 1093ms)
+ GET / 200 in 648ms (next.js: 18ms, application-code: 630ms)
+ GET / 200 in 545ms (next.js: 11ms, application-code: 534ms)
+ GET / 200 in 543ms (next.js: 436ms, application-code: 107ms)
+ GET / 200 in 548ms (next.js: 98ms, application-code: 449ms)
+✓ Compiled in 203ms
+✓ Compiled in 193ms
+ GET / 200 in 372ms (next.js: 9ms, application-code: 362ms)
+ GET / 200 in 281ms (next.js: 9ms, application-code: 272ms)
+ GET / 200 in 202ms (next.js: 10ms, application-code: 191ms)
+ GET / 200 in 203ms (next.js: 66ms, application-code: 137ms)
+ GET / 200 in 203ms (next.js: 125ms, application-code: 78ms)
+ GET / 200 in 2.3s (next.js: 234ms, application-code: 2.1s)
+ GET / 200 in 470ms (next.js: 256ms, application-code: 214ms)
+ GET / 200 in 483ms (next.js: 143ms, application-code: 340ms)
+ GET / 200 in 2.0s (next.js: 1132ms, application-code: 870ms)
+ GET / 200 in 511ms (next.js: 19ms, application-code: 492ms)
+ GET / 200 in 2.7s (next.js: 15ms, application-code: 2.7s)
+✓ Compiled in 1120ms
+✓ Compiled in 596ms
+✓ Compiled in 236ms
+ GET / 200 in 748ms (next.js: 334ms, application-code: 414ms)
+ GET / 200 in 302ms (next.js: 9ms, application-code: 293ms)
+ GET / 200 in 226ms (next.js: 16ms, application-code: 209ms)
+ GET / 200 in 226ms (next.js: 75ms, application-code: 150ms)
+ GET / 200 in 224ms (next.js: 146ms, application-code: 78ms)
+✓ Compiled in 238ms
+✓ Compiled in 231ms
+✓ Compiled in 211ms
+✓ Compiled in 287ms
+✓ Compiled in 232ms
+✓ Compiled in 207ms
+ GET / 200 in 440ms (next.js: 266ms, application-code: 174ms)
+ GET / 200 in 1109ms (next.js: 358ms, application-code: 751ms)
+ GET / 200 in 112ms (next.js: 17ms, application-code: 95ms)
+ GET / 200 in 1284ms (next.js: 255ms, application-code: 1028ms)
+ GET / 200 in 212ms (next.js: 12ms, application-code: 200ms)
+ GET / 200 in 288ms (next.js: 23ms, application-code: 265ms)
+ GET / 200 in 225ms (next.js: 20ms, application-code: 205ms)
+ GET / 200 in 210ms (next.js: 20ms, application-code: 190ms)
+ GET / 200 in 128ms (next.js: 6ms, application-code: 122ms)
+ GET / 200 in 27ms (next.js: 12ms, application-code: 16ms)
+ GET / 200 in 44ms (next.js: 5ms, application-code: 39ms)
+✓ Compiled in 1273ms
+ GET / 200 in 1505ms (next.js: 281ms, application-code: 1224ms)
+✓ Compiled in 174ms
+✓ Compiled in 217ms
+✓ Compiled in 572ms
+ GET / 200 in 542ms (next.js: 181ms, application-code: 361ms)
+✓ Compiled in 333ms
+ GET / 200 in 150ms (next.js: 7ms, application-code: 142ms)
+✓ Compiled in 221ms
+✓ Compiled in 203ms
+✓ Compiled in 257ms
+ GET / 200 in 617ms (next.js: 203ms, application-code: 414ms)
+✓ Compiled in 311ms
+✓ Compiled in 264ms
+✓ Compiled in 164ms
+✓ Compiled in 219ms
+✓ Compiled in 448ms
+✓ Compiled in 441ms
+✓ Compiled in 324ms
+✓ Compiled in 199ms
+✓ Compiled in 173ms
+✓ Compiled in 234ms
+✓ Compiled in 246ms
+✓ Compiled in 215ms
+ GET /about 200 in 388ms (next.js: 290ms, application-code: 99ms)
+ GET /therapy 200 in 381ms (next.js: 282ms, application-code: 99ms)
+ GET /contact 200 in 564ms (next.js: 276ms, application-code: 288ms)
+✓ Compiled in 160ms
+✓ Compiled in 179ms
+✓ Compiled in 402ms
+✓ Compiled in 345ms
+✓ Compiled in 681ms
+ GET / 200 in 284ms (next.js: 222ms, application-code: 62ms)
+ GET / 200 in 909ms (next.js: 9ms, application-code: 900ms)
+ GET / 200 in 193ms (next.js: 8ms, application-code: 185ms)
+✓ Compiled in 381ms
+✓ Compiled in 389ms
+✓ Compiled in 399ms
+✓ Compiled in 351ms
+✓ Compiled in 242ms
+✓ Compiled in 713ms
+ GET / 200 in 777ms (next.js: 344ms, application-code: 433ms)
+✓ Compiled in 378ms
+✓ Compiled in 338ms
+ GET / 200 in 176ms (next.js: 12ms, application-code: 164ms)
+✓ Compiled in 365ms
+ GET / 200 in 215ms (next.js: 10ms, application-code: 205ms)
+✓ Compiled in 225ms
+ GET / 200 in 165ms (next.js: 14ms, application-code: 151ms)
+ GET /about 200 in 279ms (next.js: 208ms, application-code: 71ms)
+ GET /therapy 200 in 257ms (next.js: 186ms, application-code: 71ms)
+ GET /contact 200 in 279ms (next.js: 222ms, application-code: 57ms)
+ GET / 200 in 118ms (next.js: 14ms, application-code: 104ms)
+✓ Compiled in 230ms
+✓ Compiled in 203ms
+ GET / 200 in 778ms (next.js: 259ms, application-code: 519ms)
+✓ Compiled in 282ms
+ GET / 200 in 631ms (next.js: 215ms, application-code: 416ms)
+✓ Compiled in 178ms
+✓ Compiled in 201ms
+✓ Compiled in 231ms
+✓ Compiled in 241ms
+ GET / 200 in 559ms (next.js: 196ms, application-code: 363ms)
+✓ Compiled in 340ms
+✓ Compiled in 429ms
+✓ Compiled in 626ms
+○ Compiling /privacy ...
+ GET /privacy 200 in 7.2s (next.js: 5.7s, application-code: 1515ms)
+ GET /privacy 200 in 299ms (next.js: 206ms, application-code: 93ms)
+ GET /privacy 200 in 373ms (next.js: 290ms, application-code: 83ms)
+✓ Compiled in 319ms
+ GET /privacy 200 in 978ms (next.js: 918ms, application-code: 60ms)
+ GET / 200 in 568ms (next.js: 335ms, application-code: 233ms)
+ GET /contact 200 in 424ms (next.js: 317ms, application-code: 107ms)
+ GET /therapy 200 in 295ms (next.js: 219ms, application-code: 76ms)
+ GET /therapy 200 in 574ms (next.js: 39ms, application-code: 535ms)
+✓ Compiled in 4s
+ GET /therapy 200 in 9.0s (next.js: 359ms, application-code: 8.6s)
+ GET /therapy 200 in 7.2s (next.js: 45ms, application-code: 7.1s)
+ GET /therapy 200 in 6.4s (next.js: 135ms, application-code: 6.2s)
+ GET /therapy 200 in 6.3s (next.js: 521ms, application-code: 5.8s)
+ GET /therapy 200 in 4.1s (next.js: 265ms, application-code: 3.9s)
+ GET /therapy 200 in 730ms (next.js: 135ms, application-code: 594ms)
+ GET /therapy 200 in 578ms (next.js: 14ms, application-code: 564ms)
+ GET /therapy 200 in 589ms (next.js: 9ms, application-code: 580ms)
+ GET /therapy 200 in 568ms (next.js: 11ms, application-code: 556ms)
+ GET /therapy 200 in 645ms (next.js: 100ms, application-code: 546ms)
+ GET /therapy 200 in 676ms (next.js: 13ms, application-code: 663ms)
+ GET /therapy 200 in 503ms (next.js: 13ms, application-code: 491ms)
+ GET /therapy 200 in 501ms (next.js: 13ms, application-code: 488ms)
+ GET /therapy 200 in 487ms (next.js: 11ms, application-code: 476ms)
+ GET /therapy 200 in 387ms (next.js: 11ms, application-code: 376ms)
+ GET /therapy 200 in 389ms (next.js: 109ms, application-code: 280ms)
+ GET /therapy 200 in 190ms (next.js: 11ms, application-code: 179ms)
+ GET /therapy 200 in 97ms (next.js: 13ms, application-code: 84ms)
+✓ Compiled in 534ms
+ GET /therapy 200 in 2.1s (next.js: 514ms, application-code: 1589ms)
+ GET /therapy 200 in 1274ms (next.js: 41ms, application-code: 1233ms)
+ GET /therapy 200 in 1018ms (next.js: 153ms, application-code: 866ms)
+ GET /therapy 200 in 1088ms (next.js: 35ms, application-code: 1053ms)
+ GET /therapy 200 in 1218ms (next.js: 487ms, application-code: 730ms)
+ GET /therapy 200 in 1300ms (next.js: 634ms, application-code: 665ms)
+[?25h

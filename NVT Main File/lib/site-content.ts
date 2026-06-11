@@ -5,6 +5,7 @@ export const siteContent = {
   serviceArea: "New Jersey",
   phoneDisplay: "(973) 951-4402",
   phoneHref: "tel:9739514402",
+  contactEmail: "dejiofor@hotmail.com",
   contactPath: "/contact",
   officeLocations: [
     "Winslow Township, New Jersey 08081",
