@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
-import { BookButton } from "@/components/book-button"
 import { Button } from "@/components/ui/button"
 import { siteContent } from "@/lib/site-content"
 
@@ -48,25 +47,32 @@ export default function MainPage() {
           <div className="mx-auto max-w-12xl text-center">
               <p className="eyebrow">{siteContent.homeIntro.eyebrow}</p>
               <h1 className="mx-auto mt-4 max-w-4xl text-4xl font-serif font-semibold leading-tight text-balance text-foreground md:text-5xl lg:text-4xl">
-                {siteContent.homeIntro.title}
+                {siteContent.practiceName}
               </h1>
-              <div className="mx-auto mt-6 max-w-4xl space-y-4 text-lg leading-relaxed text-foreground md:text-xl">
-                {siteContent.homeIntro.body.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
-              </div>
                 {/* End of hero section content */}
 
                 {/* CTA buttons */}
               {/* Services button */}
-              <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-                <BookButton variant="large" />
+              <div className="mt-8 flex justify-center">
                 <Link href="/therapy">
                   <Button size="lg" className="gap-2 px-8 py-6 text-lg">
                     Services
                   </Button>
                 </Link>
               </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="space-y-4 text-lg leading-relaxed text-foreground md:text-xl">
+            <h2 className="text-2xl font-serif font-semibold text-foreground">
+              {siteContent.homeIntro.title}
+            </h2>
+            {siteContent.homeIntro.body.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
           </div>
         </div>
       </section>

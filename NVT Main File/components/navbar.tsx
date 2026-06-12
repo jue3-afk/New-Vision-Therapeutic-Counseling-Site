@@ -22,13 +22,17 @@ export function Navbar() {
     <header
       className="top-0 left-0 right-0 w-full z-50 border-b border-border/70 bg-cover bg-top bg-no-repeat"
       style={{
-        backgroundImage: "url('/flowerpic.jpg')",
+        /*backgroundImage: "url('/flowerpic.jpg')",*/
         backgroundPosition: "center 30%",
         backgroundSize: 'cover',
-        minHeight: '140px',
+        minHeight: '80px',
       }}
     >
-      <nav className="w-full px-8 py-4">
+
+      <nav className="w-full px-4 py-2">
+        {/*Navbar New Vision Therapeutic Logo*/}
+
+        {/*
         <div className="relative flex items-center justify-center">
           <Link
             href="/"
@@ -48,9 +52,10 @@ export function Navbar() {
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
+        */}
 
         {/* Desktop menu */}
-        <div className="hidden md:flex items-center justify-center gap-6">
+        <div className="hidden md:flex items-center justify-center gap-4">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -67,7 +72,7 @@ export function Navbar() {
         </div>
 
         {isOpen && (
-          <div id="mobile-nav" className="mt-4 flex flex-col items-center gap-4 border-t border-border pt-4 md:hidden">
+          <div id="mobile-nav" className="mt-2 flex flex-col items-center gap-3 border-t border-border pt-2 md:hidden">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
