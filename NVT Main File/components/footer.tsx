@@ -19,13 +19,6 @@ export function Footer() {
           <p className="text-muted-foreground text-sm">
             Serving clients in {siteContent.serviceArea} with telehealth and office-based care.
           </p>
-
-          <Link
-            href="/privacy"
-            className="text-muted-foreground hover:text-primary transition-colors underline text-sm"
-          >
-            Privacy Policy
-          </Link>
         </div>
 
         <div className="border-t border-border mt-6 pt-6 text-center text-muted-foreground text-sm">

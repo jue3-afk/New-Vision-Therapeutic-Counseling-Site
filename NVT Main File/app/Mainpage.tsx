@@ -24,8 +24,8 @@ const services = [
     imageAlt: "Life transitions support",
   },
 ]
+// Simple practice url
 
-// URL link
 const SIMPLE_PRACTICE_URL =
   "https://care.headway.co/providers/deborah-ejiofor?utm_source=pem&utm_medium=direct_link&utm_campaign=78094"
 
@@ -36,7 +36,7 @@ export default function MainPage() {
       <section
         className="py-10 md:py-14"
         style={{
-          backgroundImage: "url('/calmingchair.jpg')",
+          backgroundImage: "url('/secondcalmchair.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -70,26 +70,7 @@ export default function MainPage() {
           </div>
         </div>
       </section>
-      {/*commented out hero section for now, may add back in later*/}
-{/*      
-      <section className="py-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="max-w-3xl border-l-4 border-primary/40 pl-6">
-            <h2 className="mb-4 text-2xl font-serif font-semibold text-foreground">Therapy</h2>
-            <p className="mb-6 leading-relaxed text-muted-foreground">
-              Whether you&apos;re facing anxiety, depression, relationship challenges, or life transitions, I provide a
-              safe space for adults to explore their feelings and develop coping strategies.
-            </p>
-            <Link
-              href="/therapy"
-              className="inline-flex items-center font-medium text-primary underline-offset-4 hover:underline"
-            >
-              Learn more <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
-*/}
+      
 
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">

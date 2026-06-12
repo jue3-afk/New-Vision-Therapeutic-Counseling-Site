@@ -29,21 +29,12 @@ export function Navbar() {
       }}
     >
       <nav className="w-full px-8 py-4">
-        <div className="flex items-center justify-center md:block">
+        <div className="relative flex items-center justify-center">
           <Link
             href="/"
-            className="block text-center text-xl font-semibold leading-tight text-primary md:text-2xl"
+            className="block text-xl font-semibold leading-tight text-primary md:text-2xl"
             aria-label={`${siteContent.practiceName} home`}
-            >
-             
-             
-
-
-
-
-
-            <span className="text-xl font-semibold leading-tight text-primary md:text-3xl"></span>{""}
-            <span className="bg-primary px-3 py-1 text-primary-foreground"></span>
+          >
             {siteContent.practiceName}
           </Link>
 
@@ -57,7 +48,6 @@ export function Navbar() {
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-
 
         {/* Desktop menu */}
         <div className="hidden md:flex items-center justify-center gap-6">
