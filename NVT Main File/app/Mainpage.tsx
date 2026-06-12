@@ -23,8 +23,9 @@ const services = [
     imageAlt: "Life transitions support",
   },
 ]
-// Simple practice url
-
+// Simple headway url for booking appointments, 
+// can be replaced with a custom form in the future if desired
+//left var as SIMPLE_PRACTICE_URL for easy reference and updating if needed
 const SIMPLE_PRACTICE_URL =
   "https://care.headway.co/providers/deborah-ejiofor?utm_source=pem&utm_medium=direct_link&utm_campaign=78094"
 
@@ -53,8 +54,12 @@ export default function MainPage() {
                 {/* End of hero section content */}
 
                 {/* CTA buttons */}
-              {/* Services button */}
-              <div className="mt-8 flex justify-center">
+              <div className="mt-8 flex justify-center gap-4">
+                <Link href="/about">
+                  <Button size="lg" className="gap-2 px-8 py-6 text-lg">
+                    About
+                  </Button>
+                </Link>
                 <Link href="/therapy">
                   <Button size="lg" className="gap-2 px-8 py-6 text-lg">
                     Services
