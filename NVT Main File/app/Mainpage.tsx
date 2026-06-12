@@ -71,7 +71,7 @@ export default function MainPage() {
         </div>
       </section>
       
-
+        {/*
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="mb-12 text-center">
@@ -102,7 +102,7 @@ export default function MainPage() {
           </div>
         </div>
       </section>
-
+*/}
       
 
       <section className="py-10 pb-20">

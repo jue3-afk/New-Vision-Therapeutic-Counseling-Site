@@ -16,6 +16,41 @@ const services = [
       "Convenient and secure telehealth sessions from the comfort of your home. Video therapy is just as effective as in-person sessions for many concerns.",
   },
 ]
+const serviceDetails = [
+  {
+    title: "Client focus",
+    description: [
+      "Age Specialty: Adult, Senior, Young Adult.",
+      "Demographic Experience: Black / African American / Latino, Men, Women clients.",
+      "Language: English.",
+    ],
+  },
+  {
+    title: "Treatment Apporoach",
+    description: [
+      "Acceptance & Commitment Therapy (ACT)",
+      "Cognitive Behavioral Therapy (CBT)",
+      "Mindfulness-Based Cognitive Therapy (MBCT)",
+      "Psychodynamic Therapy",
+      "Psychoeducational Therapy",
+      "Solution-Focused Brief Therapy (SFBT)",
+    ]
+  }
+]
+
+const fees=[
+  {
+    title: "Fees & Insurance",
+    description: ["Fees",
+      "*Average Session Fee 120",
+      "Insurance",
+      "Accepts Insurance: Aetna, Anthem, Cigna and Evernorth, Horizon Blue Cross and Blue Shield",
+      "Merltain Health, Oxfrd, United Healthcare|UHC|UBH",
+
+    ]
+  }
+]
+
 
 const faqs = [
   {
@@ -38,25 +73,25 @@ const faqs = [
 export default function ServicesPage() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="py-16 md:py-24 bg-secondary">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-serif font-semibold text-foreground text-balance">Services</h1>
-            <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              We offer a range of therapeutic services tailored to meet you where you are.
-            </p>
-          </div>
+      {/* My Approach Banner */}
+      <section className="py-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-7 text-center">
+          <h2 className="section-title">My Approach</h2>
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+            I believe in meeting each client where they are. Using evidence-based techniques including Cognitive
+            Behavioral Therapy (CBT), mindfulness practices, and person-centered approaches, I tailor treatment to your
+            unique needs and goals. Therapy is a collaborative process, and I&apos;m here to support you every step of
+            the way.
+          </p>
         </div>
       </section>
 
-      
       {/* Services Grid */}
       <section className="py-20 bg-background">
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-2">
             {services.map((service) => (
-              <div key={service.title} className="border-l-4 border-primary/30 pl-5">
+              <div key={service.title} className="rounded-3xl border border-border/70 bg-card p-6 shadow-sm shadow-black/5">
                 <service.icon className="mb-4 w-6 h-6 text-primary" />
                 <h2 className="text-xl font-semibold text-foreground">{service.title}</h2>
                 <p className="mt-3 text-muted-foreground leading-relaxed">
@@ -71,16 +106,47 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* My apporach Banner */}
-      <section className="py-10">
-        <div className="max-w-4xl mx-auto px-4 sm:px-7 text-center">
-          <h2 className="section-title">My Approach</h2>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            I believe in meeting each client where they are. Using evidence-based techniques including Cognitive
-            Behavioral Therapy (CBT), mindfulness practices, and person-centered approaches, I tailor treatment to your
-            unique needs and goals. Therapy is a collaborative process, and I&apos;m here to support you every step of
-            the way.
-          </p>
+      {/* Services Section */}
+      <section className="py-16 md:py-24 bg-secondary">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-serif font-semibold text-foreground text-balance">Services</h1>
+            <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
+              We offer a range of therapeutic services tailored to meet you where you are.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Details */}
+      <section className="py-8 bg-background">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <h2 className="mb-6 text-2xl font-semibold text-foreground">Service Details</h2>
+          <div className="grid gap-6 md:grid-cols-2">
+            {serviceDetails.map((detail) => (
+              <div key={detail.title} className="rounded-3xl border border-border/70 bg-card p-6 shadow-sm shadow-black/5">
+                <h3 className="text-xl font-semibold text-foreground">{detail.title}</h3>
+                <div className="mt-4 text-muted-foreground space-y-2">
+                  {detail.description.map((line, i) => (
+                    <p key={i}>{line}</p>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8">
+            {fees.map((fee) => (
+              <div key={fee.title} className="rounded-3xl border border-border/70 bg-card p-6 shadow-sm shadow-black/5">
+                <h3 className="text-xl font-semibold text-foreground">{fee.title}</h3>
+                <div className="mt-4 text-muted-foreground space-y-2">
+                  {fee.description.map((line, i) => (
+                    <p key={i}>{line}</p>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
       {/* CTA Banner */}
