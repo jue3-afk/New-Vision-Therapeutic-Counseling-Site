@@ -16,6 +16,30 @@ const services = [
       "Convenient and secure telehealth sessions from the comfort of your home. Video therapy is just as effective as in-person sessions for many concerns.",
   },
 ]
+
+const approachValues = [
+  {
+    title: "Evidence-Based",
+    description:
+      "Our methods are grounded in proven therapeutic approaches including CBT, mindfulness practices, and person-centered therapy.",
+  },
+  {
+    title: "Client-Centered",
+    description:
+      "You are the expert on your own life. We guide and support, but ultimately empower you to find your own path to wellness.",
+  },
+  {
+    title: "Compassionate Care",
+    description:
+      "We approach every session with genuine understanding. Your experiences are valid, and your feelings matter.",
+  },
+  {
+    title: "Inclusive Space",
+    description:
+      "Everyone deserves quality mental health care. We welcome clients of all backgrounds, identities, and experiences.",
+  },
+]
+
 const serviceDetails = [
   {
     title: "Client focus",
@@ -73,16 +97,22 @@ const faqs = [
 export default function ServicesPage() {
   return (
     <div className="min-h-screen">
-      {/* My Approach Banner */}
       <section className="py-10">
-        <div className="max-w-4xl mx-auto px-4 sm:px-7 text-center">
-          <h2 className="section-title">My Approach</h2>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            I believe in meeting each client where they are. Using evidence-based techniques including Cognitive
-            Behavioral Therapy (CBT), mindfulness practices, and person-centered approaches, I tailor treatment to your
-            unique needs and goals. Therapy is a collaborative process, and I&apos;m here to support you every step of
-            the way.
-          </p>
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="mb-12 text-center">
+            <h2 className="section-title">Our Approach</h2>
+            <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto">
+              These principles guide everything we do at New Vision Counseling.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {approachValues.map((value) => (
+              <div key={value.title} className="border-l-4 border-primary/30 pl-5">
+                <h3 className="text-xl font-semibold text-foreground mb-3">{value.title}</h3>
+                <p className="text-muted-foreground leading-relaxed">{value.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

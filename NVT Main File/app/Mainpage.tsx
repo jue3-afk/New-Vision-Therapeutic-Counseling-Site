@@ -33,6 +33,7 @@ export default function MainPage() {
     <div className="min-h-screen">
       {/*Background image hero section*/}
       <section
+      /*Background image hero section content, sizing, and styling*/
         className="py-10 md:py-14"
         style={{
           backgroundImage: "url('/secondcalmchair.png')",
@@ -64,7 +65,7 @@ export default function MainPage() {
         </div>
       </section>
 
-      <section className="py-8">
+      <section className="py-8 mt-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <div className="space-y-4 text-lg leading-relaxed text-foreground md:text-xl">
             <h2 className="text-2xl font-serif font-semibold text-foreground">
