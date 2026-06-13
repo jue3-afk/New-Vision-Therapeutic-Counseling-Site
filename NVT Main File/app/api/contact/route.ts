@@ -1,36 +1,53 @@
-import nodemailer from 'nodemailer'
 import { NextResponse } from 'next/server'
 
-
-{/*This is for the email inquiry message system*/}
-
-
-const smtpHost = process.env.SMTP_HOST
-const smtpPort = process.env.SMTP_PORT
-const smtpUser = process.env.SMTP_USER
-const smtpPass = process.env.SMTP_PASS
-const emailFrom = process.env.EMAIL_FROM || smtpUser
-const emailTo = process.env.EMAIL_TO || 'dejiofor@hotmail.com' || 'dejiofor@gmail.com'
-const smtpSecure = process.env.SMTP_SECURE === 'true'
+const resendApiKey = process.env.RESEND_API_KEY
+const emailFrom = process.env.EMAIL_FROM || 'New Vision Contact <no-reply@example.com>'
+const emailTo = process.env.EMAIL_TO || 'dejiofor@hotmail.com'
 
 function missingConfig() {
-  return !smtpHost || !smtpPort || !smtpUser || !smtpPass
+  return !resendApiKey || !emailFrom || !emailTo
 }
 
-const transporter = nodemailer.createTransport({
-  host: smtpHost,
-  port: smtpPort ? Number(smtpPort) : 587,
-  secure: smtpSecure,
-  auth: {
-    user: smtpUser,
-    pass: smtpPass,
-  },
-})
+async function sendMailWithResend({
+  recipient,
+  subject,
+  html,
+  replyTo,
+}: {
+  recipient: string
+  subject: string
+  html: string
+  replyTo?: string
+}) {
+  const body = {
+    from: emailFrom,
+    to: recipient,
+    subject,
+    html,
+  }
+
+  const resp = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${resendApiKey}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  })
+
+  if (!resp.ok) {
+    const text = await resp.text()
+    throw new Error(`Resend send failed: ${resp.status} ${text}`)
+  }
+}
 
 export async function POST(request: Request) {
   if (missingConfig()) {
     return NextResponse.json(
-      { error: 'Email service is not configured. Please set SMTP_HOST, SMTP_PORT, SMTP_USER, and SMTP_PASS.' },
+      {
+        error:
+          'Mail service is not configured. Please set RESEND_API_KEY, EMAIL_FROM, and EMAIL_TO.',
+      },
       { status: 500 },
     )
   }
@@ -47,20 +64,23 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Name, email, and message are required.' }, { status: 400 })
   }
 
+  const mailSubject = subject ? `Contact form: ${subject}` : 'Contact form message'
+  const html = `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Subject:</strong> ${subject || 'No subject'}</p><p><strong>Message:</strong><br/>${message.replace(/\n/g, '<br/>')}</p>`
+
   try {
-    await transporter.sendMail({
-      from: emailFrom,
-      to: emailTo,
-      subject: subject ? `Contact form: ${subject}` : 'Contact form message',
-      text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject || 'No subject'}\n\n${message}`,
-      html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Subject:</strong> ${subject || 'No subject'}</p><p><strong>Message:</strong><br/>${message.replace(/\n/g, '<br/>')}</p>`,
+    await sendMailWithResend({
+      recipient: emailTo,
+      subject: mailSubject,
+      html,
+      replyTo: email,
     })
 
     return NextResponse.json({ success: true })
   } catch (error) {
     console.error('Email send failed:', error)
+    const message = error instanceof Error ? error.message : 'Unable to send your message. Please try again later.'
     return NextResponse.json(
-      { error: 'Unable to send your message. Please try again later.' },
+      { error: message },
       { status: 500 },
     )
   }

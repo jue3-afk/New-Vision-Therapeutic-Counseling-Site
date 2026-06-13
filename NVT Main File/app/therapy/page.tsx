@@ -44,9 +44,8 @@ const serviceDetails = [
   {
     title: "Client focus",
     description: [
-      "Age Specialty: Adult, Senior, Young Adult.",
-      "Demographic Experience: Black / African American / Latino, Men, Women clients.",
-      "Language: English.",
+      "Age Specialty: Teens , Adults , Seniors\n ",
+      "\nLanguage: English",
     ],
   },
   {
@@ -65,11 +64,11 @@ const serviceDetails = [
 const fees=[
   {
     title: "Fees & Insurance",
-    description: ["Fees",
-      "*Average Session Fee 120",
-      "Insurance",
-      "Accepts Insurance: Aetna, Anthem, Cigna and Evernorth, Horizon Blue Cross and Blue Shield",
-      "Merltain Health, Oxfrd, United Healthcare|UHC|UBH",
+    description: [
+      "Average Session Fee 120",
+
+      "Accepts Insurance: Aetna, Anthem, Cigna, Horizon Blue Cross and Blue Shield",
+      "Merltain Health,",
 
     ]
   }

@@ -33,8 +33,8 @@ export default function MainPage() {
   return (
     <div className="min-h-screen">
       {/*Background image hero section*/}
+      {/*Background image hero section content, sizing, and styling*/}
       <section
-      /*Background image hero section content, sizing, and styling*/
         className="py-10 md:py-14"
         style={{
           backgroundImage: "url('/secondcalmchair.png')",
