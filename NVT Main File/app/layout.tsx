@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   description:
     `${siteContent.therapistName} offers compassionate therapy for anxiety, trauma, depression, and life transitions in ${siteContent.serviceArea}.`,
   icons: {
-    icon: "/flowerpic.jpg",
-    shortcut: "/flowerpic.jpg",
-    apple: "/flowerpic.jpg",
+    icon: "/secondcalmchair.png",
+    shortcut: "/secondcalmchair.png",
+    apple: "/secondcalmchair.png",
   },
 }
 
