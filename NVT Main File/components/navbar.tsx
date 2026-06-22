@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { usePathname } from "next/navigation"
@@ -30,21 +29,20 @@ export function Navbar() {
     >
 
       <nav className="w-full px-4 py-2">
-        {/*Navbar New Vision Therapeutic Logo*/}
-
-        {/*
-        <div className="relative flex items-center justify-center">
+        {/* Mobile menu */}
+        <div className="relative flex min-h-14 items-center justify-center md:hidden">
           <Link
             href="/"
-            className="block text-xl font-semibold leading-tight text-primary md:text-2xl"
+            className="max-w-[75%] text-center text-lg font-semibold leading-tight text-primary"
             aria-label={`${siteContent.practiceName} home`}
+            onClick={() => setIsOpen(false)}
           >
             {siteContent.practiceName}
           </Link>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="absolute right-4 p-2 text-foreground md:hidden"
+            className="absolute right-0 inline-flex h-11 w-11 items-center justify-center text-foreground"
             aria-expanded={isOpen}
             aria-controls="mobile-nav"
             aria-label="Toggle menu"
@@ -52,7 +50,6 @@ export function Navbar() {
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-        */}
 
         {/* Desktop menu */}
         <div className="hidden md:flex items-center justify-center gap-4">
@@ -72,7 +69,7 @@ export function Navbar() {
         </div>
 
         {isOpen && (
-          <div id="mobile-nav" className="mt-2 flex flex-col items-center gap-3 border-t border-border pt-2 md:hidden">
+          <div id="mobile-nav" className="mt-2 flex flex-col items-center gap-3 border-t border-border pt-3 pb-2 md:hidden">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

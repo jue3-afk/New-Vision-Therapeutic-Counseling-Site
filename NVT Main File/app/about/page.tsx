@@ -26,6 +26,18 @@ export default function AboutPage() {
               <p className="mt-4 max-w-2xl text-lg text-primary md:text-xl">
                 {aboutIntro.lead}
               </p>
+              <div className="mt-8 md:hidden">
+                <div className="relative mx-auto aspect-square w-full max-w-xs overflow-hidden">
+                  <Image
+                    src="/NEWV_DEB_PIC.jpg"
+                    alt={`${aboutIntro.title} portrait`}
+                    fill
+                    sizes="(max-width: 767px) 320px"
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              </div>
               <div className="mt-8 max-w-3xl space-y-4 text-left text-lg leading-relaxed text-muted-foreground">
                 {aboutIntro.body.map((paragraph) => (
                   <p key={paragraph}>{paragraph}</p>
@@ -33,13 +45,14 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Therapist image */}
-            <div className="flex-1">
+            {/* Desktop therapist image */}
+            <div className="hidden flex-1 md:block">
               <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden">
                 <Image
                   src="/NEWV_DEB_PIC.jpg"
                   alt={`${aboutIntro.title} portrait`}
                   fill
+                  sizes="(min-width: 768px) 448px"
                   className="object-cover"
                   priority
                 />
