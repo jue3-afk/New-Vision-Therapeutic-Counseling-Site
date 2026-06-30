@@ -599,3 +599,7 @@ Import traces:
     at Set.forEach (<anonymous>) (<anonymous>)
  GET /contact 200 in 2.1s (next.js: 408ms, application-code: 1714ms)
  GET /about 200 in 336ms (next.js: 11ms, application-code: 325ms)
+ GET /therapy 200 in 392ms (next.js: 135ms, application-code: 257ms)
+ GET /contact 200 in 135ms (next.js: 18ms, application-code: 117ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+ GET /contact 200 in 293ms (next.js: 13ms, application-code: 280ms)
