@@ -603,3 +603,24 @@ Import traces:
  GET /contact 200 in 135ms (next.js: 18ms, application-code: 117ms)
 [browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
  GET /contact 200 in 293ms (next.js: 13ms, application-code: 280ms)
+✓ Compiled in 1133ms
+ GET / 200 in 836ms (next.js: 318ms, application-code: 519ms)
+ GET /about 200 in 211ms (next.js: 106ms, application-code: 105ms)
+ GET /about 200 in 762ms (next.js: 11ms, application-code: 751ms)
+ GET /therapy 200 in 137ms (next.js: 39ms, application-code: 98ms)
+ GET /contact 200 in 181ms (next.js: 96ms, application-code: 85ms)
+ GET /contact 200 in 339ms (next.js: 7ms, application-code: 331ms)
+ GET /contact 200 in 126ms (next.js: 8ms, application-code: 118ms)
+ GET /contact 200 in 80ms (next.js: 6ms, application-code: 74ms)
+ GET /about 200 in 34ms (next.js: 5ms, application-code: 29ms)
+ GET /contact 200 in 30ms (next.js: 4ms, application-code: 26ms)
+ GET /contact 200 in 16ms (next.js: 4ms, application-code: 12ms)
+ GET /contact 200 in 39ms (next.js: 7ms, application-code: 32ms)
+ GET /contact 200 in 156ms (next.js: 5ms, application-code: 151ms)
+ GET /contact 200 in 177ms (next.js: 8ms, application-code: 169ms)
+✓ Compiled in 585ms
+ GET /contact 200 in 376ms (next.js: 100ms, application-code: 276ms)
+ GET /contact 200 in 130ms (next.js: 12ms, application-code: 118ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+    at Set.forEach (<anonymous>) (<anonymous>)
+ GET /contact 200 in 410ms (next.js: 11ms, application-code: 399ms)

@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Script from "next/script"
 import { BookButton } from "@/components/book-button"
+import { CredlyBadge } from "@/components/verification-badges"
 
 const aboutIntro = {
   eyebrow: "About Deborah Ejiofor",
@@ -45,17 +45,11 @@ export default function AboutPage() {
                   priority
                 />
               </div>
-              <div
-                data-iframe-width="150"
-                data-iframe-height="270"
-                data-share-badge-id="a945927a-9014-4872-b6b5-6932d2604a99"
-                data-share-badge-host="https://www.credly.com"
-              />
+              <CredlyBadge />
             </div>
           </div>
         </div>
       </section>
-      <Script src="https://cdn.credly.com/assets/utilities/embed.js" strategy="afterInteractive" />
 
       <section className="py-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
