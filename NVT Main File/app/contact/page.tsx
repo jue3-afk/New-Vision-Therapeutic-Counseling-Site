@@ -48,7 +48,7 @@ export default function ContactPage() {
       <section className="py-20 bg-background">
         <div className="max-w-6xl mx-auto px-4 grid gap-16 xl:grid-cols-[1.2fr_0.8fr] xl:gap-20">
           <div className="space-y-10">
-            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
               <div className="border-l-4 border-primary/30 pl-5">
                 <Phone className="mb-4 w-6 h-6 text-primary" />
                 <h3 className="text-lg font-semibold text-foreground mb-2">Phone</h3>
@@ -63,6 +63,20 @@ export default function ContactPage() {
                 <a href={`mailto:${siteContent.contactEmail}`} className="text-muted-foreground transition-colors hover:text-primary">
                   {siteContent.contactEmail}
                 </a>
+              </div>
+
+              <div className="border-l-4 border-primary/30 pl-5">
+                <h3 className="text-lg font-semibold text-foreground mb-2">Verified Profile</h3>
+                <div className="mt-4">
+                  <a href="https://www.psychologytoday.com/profile/395428" className="sx-verified-seal"></a>
+                  <script
+                    type="text/javascript"
+                    src="https://member.psychologytoday.com/verified-seal.js"
+                    data-badge="14"
+                    data-id="395428"
+                    data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xNC9wcm9maWxlLzM5NTQyOD9jYWxsYmFjaz1zeGNhbGxiYWNr"
+                  ></script>
+                </div>
               </div>
             </div>
 

@@ -19,21 +19,20 @@ export function Navbar() {
 
   return (
     <header
-      className="top-0 left-0 right-0 w-full z-50 border-b border-border/70 bg-cover bg-top bg-no-repeat"
+      className="sticky top-0 left-0 right-0 z-50 w-full border-b border-border/70 bg-background/95 shadow-sm backdrop-blur"
       style={{
         /*backgroundImage: "url('/flowerpic.jpg')",*/
         backgroundPosition: "center 30%",
-        backgroundSize: 'cover',
-        minHeight: '80px',
+        backgroundSize: "cover",
       }}
     >
 
-      <nav className="w-full px-4 py-2">
+      <nav className="mx-auto w-full max-w-6xl px-4 py-2 sm:px-6">
         {/* Mobile menu */}
-        <div className="relative flex min-h-14 items-center justify-center md:hidden">
+        <div className="flex min-h-14 items-center justify-between gap-3 md:hidden">
           <Link
             href="/"
-            className="max-w-[75%] text-center text-lg font-semibold leading-tight text-primary"
+            className="min-w-0 flex-1 text-base font-semibold leading-tight text-primary"
             aria-label={`${siteContent.practiceName} home`}
             onClick={() => setIsOpen(false)}
           >
@@ -42,7 +41,7 @@ export function Navbar() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="absolute right-0 inline-flex h-11 w-11 items-center justify-center text-foreground"
+            className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-md border border-border bg-background text-foreground shadow-sm"
             aria-expanded={isOpen}
             aria-controls="mobile-nav"
             aria-label="Toggle menu"
@@ -69,21 +68,21 @@ export function Navbar() {
         </div>
 
         {isOpen && (
-          <div id="mobile-nav" className="mt-2 flex flex-col items-center gap-3 border-t border-border pt-3 pb-2 md:hidden">
+          <div id="mobile-nav" className="mt-2 flex flex-col gap-1 border-t border-border bg-background py-3 md:hidden">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
                 aria-current={pathname === link.href ? "page" : undefined}
-                className={`py-2 transition-colors ${
-                  pathname === link.href ? "text-primary" : "text-foreground hover:text-primary"
+                className={`rounded-md px-3 py-3 text-base font-medium transition-colors ${
+                  pathname === link.href ? "bg-accent text-primary" : "text-foreground hover:bg-accent hover:text-primary"
                 }`}
               >
                 {link.label}
               </Link>
             ))}
-            <BookButton />
+            <BookButton className="mt-2 w-full" />
           </div>
         )}
       </nav>

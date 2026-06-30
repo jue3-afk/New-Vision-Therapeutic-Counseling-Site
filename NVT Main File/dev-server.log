@@ -1,0 +1,601 @@
+
+> my-v0-project@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.0.0.47:3000
+- Environments: .env.local
+✓ Ready in 1506ms
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of c:\Users\ejiof\OneDrive\Desktop\New-Vision-Therapeutic-Counseling-Site\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * c:\Users\ejiof\OneDrive\Desktop\New-Vision-Therapeutic-Counseling-Site\NVT Main File\package-lock.json
+
+Creating turbopack project {
+  dir: 'c:\\Users\\ejiof\\OneDrive\\Desktop\\New-Vision-Therapeutic-Counseling-Site\\NVT Main File',
+  testMode: true
+}
+
+○ Compiling / ...
+ GET / 200 in 6.9s (next.js: 6.3s, application-code: 626ms)
+ GET /about 200 in 854ms (next.js: 731ms, application-code: 123ms)
+✓ Compiled in 367ms
+ GET /about 200 in 407ms (next.js: 228ms, application-code: 179ms)
+[browser] Uncaught NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at div (<anonymous>)
+ GET / 200 in 119ms (next.js: 17ms, application-code: 102ms)
+ GET / 200 in 219ms (next.js: 23ms, application-code: 196ms)
+ GET / 200 in 125ms (next.js: 10ms, application-code: 115ms)
+ GET /about 200 in 55ms (next.js: 6ms, application-code: 49ms)
+ GET /therapy 200 in 913ms (next.js: 816ms, application-code: 97ms)
+ GET / 200 in 46ms (next.js: 6ms, application-code: 40ms)
+ GET /about 200 in 74ms (next.js: 35ms, application-code: 39ms)
+ GET /about 200 in 290ms (next.js: 7ms, application-code: 283ms)
+ GET /contact 200 in 888ms (next.js: 824ms, application-code: 64ms)
+✓ Compiled in 135ms
+✓ Compiled in 158ms
+✓ Compiled in 222ms
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 | <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-seal"></a>
+  70 | <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" d...
+  71 | <!-- End Verification -->
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 | <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" d...
+  71 | <!-- End Verification -->
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 | <!-- End Verification -->
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |             <!-- End Verification -->
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |               <!-- End Verification -->
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |               /<!-- End Verification -->
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |               /*<!-- End Verification -->
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |               /*!-- End Verification -->
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |               /*!-- End Verification --
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |               /*!-- End Verification --*/
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:16
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               <!-- Professional verification provided by Psychology Today -->
+     |                ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:17
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               /<!-- Professional verification provided by Psychology Today -->
+     |                 ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:18
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               /*<!-- Professional verification provided by Psychology Today -->
+     |                  ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:18
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               /*<!-- Professional verification provided by Psychology Today -->/
+     |                  ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:18
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               /*<!-- Professional verification provided by Psychology Today -->*/
+     |                  ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:18
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |               /*<!-- Professional verification provided by Psychology Today -->/
+     |                  ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:8
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |     /*<!-- Professional verification provided by Psychology Today -->/
+     |        ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:6
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |     <!-- Professional verification provided by Psychology Today -->/
+     |      ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:14
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |             <!-- Professional verification provided by Psychology Today -->/
+     |              ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:14
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |             <!-- Professional verification provided by Psychology Today -->/
+     |              ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" 
+  70 |               class="sx-verified-seal"></a>
+  71 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:14
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |             <!-- Professional verification provided by Psychology Today -->/
+     |              ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:14
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |             <!-- Professional verification provided by Psychology Today -->/
+     |              ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:68:14
+Expected '</', got '!'
+  66 |               </div>
+  67 |
+> 68 |             <!-- Professional verification provided by Psychology Today -->/
+     |              ^
+  69 |               <a href="https://www.psychologytoday.com/profile/395428" class="sx-verified-...
+  70 |               <script type="text/javascript" src="https://member.psychologytoday.com/verif...
+  71 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+✓ Compiled in 599ms
+ GET /contact 200 in 613ms (next.js: 230ms, application-code: 383ms)
+ GET /contact 200 in 269ms (next.js: 16ms, application-code: 253ms)
+ GET /contact 200 in 188ms (next.js: 18ms, application-code: 170ms)
+✓ Compiled in 204ms
+✓ Compiled in 385ms
+✓ Compiled in 273ms
+✓ Compiled in 292ms
+✓ Compiled in 140ms
+✓ Compiled in 218ms
+ GET /contact 200 in 614ms (next.js: 9ms, application-code: 605ms)
+ GET /contact 200 in 126ms (next.js: 10ms, application-code: 116ms)
+ GET /contact 200 in 170ms (next.js: 8ms, application-code: 162ms)
+✓ Compiled in 757ms
+ GET /contact 200 in 485ms (next.js: 149ms, application-code: 336ms)
+ GET /contact 200 in 153ms (next.js: 11ms, application-code: 142ms)
+ GET /contact 200 in 83ms (next.js: 9ms, application-code: 75ms)
+✓ Compiled in 129ms
+ GET /contact 200 in 94ms (next.js: 9ms, application-code: 86ms)
+✓ Compiled in 137ms
+✓ Compiled in 151ms
+✓ Compiled in 121ms
+✓ Compiled in 111ms
+ GET /contact 200 in 261ms (next.js: 119ms, application-code: 142ms)
+✓ Compiled in 184ms
+[browser] ./NVT Main File/app/contact/page.tsx:264:1
+Unterminated block comment
+  262 |   )
+  263 | }
+> 264 |
+      | ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:264:1
+Unterminated block comment
+  262 |   )
+  263 | }
+> 264 |
+      | ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+[browser] ./NVT Main File/app/contact/page.tsx:74:14
+Unterminated regexp literal
+  72 |               </div>
+  73 |             </div>
+> 74 |             {/}
+     |              ^^
+  75 |             {/*Contact Form*/}
+  76 |
+  77 |             <div className="rounded-3xl border border-input/50 bg-card/80 p-8 shadow-sm">
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./NVT Main File/app/contact/page.tsx [Client Component Browser]
+    ./NVT Main File/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./NVT Main File/app/contact/page.tsx [Client Component SSR]
+    ./NVT Main File/app/contact/page.tsx [Server Component] 
+ GET /contact 200 in 513ms (next.js: 91ms, application-code: 422ms)
+ GET /contact 200 in 115ms (next.js: 8ms, application-code: 107ms)
+ GET /contact 200 in 127ms (next.js: 7ms, application-code: 121ms)
+ GET /contact 200 in 120ms (next.js: 9ms, application-code: 110ms)
+ GET /contact 200 in 125ms (next.js: 8ms, application-code: 117ms)
+ GET /contact 200 in 122ms (next.js: 6ms, application-code: 116ms)
+✓ Compiled in 250ms
+✓ Compiled in 353ms
+ GET /contact 200 in 1291ms (next.js: 233ms, application-code: 1059ms)
+ GET /contact 200 in 310ms (next.js: 11ms, application-code: 298ms)
+ GET /about 200 in 276ms (next.js: 100ms, application-code: 177ms)
+ GET /contact 200 in 68ms (next.js: 7ms, application-code: 60ms)
+ GET /about 200 in 104ms (next.js: 9ms, application-code: 95ms)
+ GET /about 200 in 559ms (next.js: 17ms, application-code: 543ms)
+ GET /contact 200 in 353ms (next.js: 147ms, application-code: 206ms)
+ GET /contact 200 in 858ms (next.js: 24ms, application-code: 834ms)
+ GET /contact 200 in 282ms (next.js: 13ms, application-code: 270ms)
+✓ Compiled in 501ms
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+    at Set.forEach (<anonymous>) (<anonymous>)
+ GET /contact 200 in 2.1s (next.js: 408ms, application-code: 1714ms)
+ GET /about 200 in 336ms (next.js: 11ms, application-code: 325ms)
