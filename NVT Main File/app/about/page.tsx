@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { BookButton } from "@/components/book-button"
+import { CredlyBadge } from "@/components/verification-badges"
 
 const aboutIntro = {
   eyebrow: "About Deborah Ejiofor",
@@ -17,7 +18,7 @@ export default function AboutPage() {
     <div className="min-h-screen">
       <section className="py-10 md:py-14">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
-          <div className="flex flex-col items-center gap-12 md:flex-row">
+          <div className="flex flex-col items-center gap-10 md:flex-row md:gap-12">
             <div className="flex-1 text-center md:text-left">
               <p className="eyebrow">{aboutIntro.eyebrow}</p>
               <h1 className="mt-4 text-4xl font-serif font-semibold leading-tight text-foreground md:text-5xl">
@@ -33,17 +34,18 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Therapist image */}
-            <div className="flex-1">
-              <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden">
+            <div className="flex w-full max-w-xs shrink-0 flex-col items-center gap-6 md:max-w-md md:flex-1">
+              <div className="relative mx-auto aspect-square w-full overflow-hidden rounded-md">
                 <Image
-                  src="/bluesuit.png"
+                  src="/professional_photo_white_final.png"
                   alt={`${aboutIntro.title} portrait`}
                   fill
+                  sizes="(max-width: 767px) 320px, 448px"
                   className="object-cover"
                   priority
                 />
               </div>
+              <CredlyBadge />
             </div>
           </div>
         </div>

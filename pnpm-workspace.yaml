@@ -1,3 +1,0 @@
-minimumReleaseAgeExclude:
-  - '@types/nodemailer@8.0.1'
-  - nodemailer@8.0.11

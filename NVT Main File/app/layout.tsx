@@ -15,21 +15,9 @@ export const metadata: Metadata = {
   description:
     `${siteContent.therapistName} offers compassionate therapy for anxiety, trauma, depression, and life transitions in ${siteContent.serviceArea}.`,
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/secondcalmchair.png",
+    shortcut: "/secondcalmchair.png",
+    apple: "/secondcalmchair.png",
   },
 }
 
