@@ -37,7 +37,7 @@ export default function AboutPage() {
             <div className="flex-1">
               <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden">
                 <Image
-                  src="/NEWV_DEB_PIC.jpg"
+                  src="/bluesuit.png"
                   alt={`${aboutIntro.title} portrait`}
                   fill
                   className="object-cover"

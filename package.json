@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build": "npm --prefix \"NVT Main File\" run build",
+    "dev": "npm --prefix \"NVT Main File\" run dev",
+    "lint": "npm --prefix \"NVT Main File\" run lint",
+    "start": "npm --prefix \"NVT Main File\" run start"
+  },
   "dependencies": {
     "nodemailer": "^8.0.11"
   },
