@@ -37,7 +37,7 @@ export default function AboutPage() {
             <div className="flex w-full max-w-xs shrink-0 flex-col items-center gap-6 md:max-w-md md:flex-1">
               <div className="relative mx-auto aspect-square w-full overflow-hidden rounded-md">
                 <Image
-                  src="/NEWV_DEB_PIC.jpg"
+                  src="/professional_photo_white_final.png"
                   alt={`${aboutIntro.title} portrait`}
                   fill
                   sizes="(max-width: 767px) 320px, 448px"
